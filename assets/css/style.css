@@ -176,7 +176,9 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
-
+.container {
+  padding-inline: 16px;
+}
 
 
 
@@ -249,7 +251,10 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-
+.navbar,
+.overlay {
+  display: none;
+}
 
 
 
