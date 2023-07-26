@@ -172,6 +172,10 @@ body {
   line-height: 1.8;
 }
 
+body.nav-active {
+  overflow: hidden;
+}
+
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
