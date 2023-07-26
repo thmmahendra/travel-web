@@ -503,6 +503,51 @@ body.nav-active {
   margin-block: 20px;
 }
 
+.hero-text {
+  margin-block-end: 30px;
+}
+
+.hero .btn-secondary {
+  margin-block-end: 20px;
+}
+
+.hero-btn {
+  color: var(--text-gunmetal);
+  font-weight: var(--weight-medium);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: var(--transition-1);
+}
+
+.hero-btn .btn-img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: var(--bg-gainsboro);
+  border-radius: var(--radius-circle);
+  box-shadow: var(--shadow-1);
+}
+
+.hero-btn .img-cover {
+  border-radius: inherit;
+}
+
+.hero-btn ion-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  background-color: var(--bg-white);
+  padding: 10px;
+  border-radius: var(--radius-circle);
+  box-shadow: var(--shadow-1);
+}
+
+.hero-btn:is(:hover, :focus-visible) {
+  color: var(--text-majorelle-blue);
+}
+
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
